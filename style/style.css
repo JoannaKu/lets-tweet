@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+body {
+	background-color: #55acee;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Itim', cursive;
+    letter-spacing: 3px;
+}
+h1 {
+	font-size: 65px;
+}
+h2 {
+	font-size: 25px;
+	margin-top: 60px;
+}
+h3{
+	font-size: 18px;
+	margin-top: 30px;
+}
+.new-quote {
+	margin-top: 60px;
+}
+a {
+	color: #807f7d;
+	text-decoration: none;
+}
+.fa {
+	margin-right: 5px;
+}
+button {
+	width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    color: #807f7d;
+    border: none;
+    font-size: 16px;
+    box-shadow: 10px 0 20px #888888;
+    background-color: #ffccbc;
+    cursor: pointer;
+}
+@media (max-width: 767px){
+	main {
+		margin-right: 110px;
+    	margin-left: 5px;
+	}
+	body {
+    	padding-top: 0;
+	}
+	h1 {
+		font-size: 30px;
+    	margin-top: 25px;
+	}
+	h2 {
+		font-size: 16px;
+    	margin-top: 25px;
+	}
+	h3{
+		font-size: 12px;
+	}
+	.new-quote {
+    	margin-top: 40px;
+    }
+    .trigger {
+    	margin-bottom: 15px;
+    }
+}
